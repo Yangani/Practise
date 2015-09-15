@@ -1,0 +1,8 @@
+//sum of numbers between two numbers(i.e range of a and b)
+var sumRange = function(a, b){
+	var range = a;
+	for(var i = a; i <= b; i++){
+		range = range + i;
+	}
+	console.log(range);
+}
